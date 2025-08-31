@@ -1,0 +1,7 @@
+# Environment
+.venv
+.env
+
+# Cache
+__pycache__
+src/__pycache__
