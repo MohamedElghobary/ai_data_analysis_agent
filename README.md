@@ -22,5 +22,33 @@ A powerful, intelligent data analysis tool that allows users to analyze CSV and 
 
 1. **Clone or download the project**
 ```bash
-git clone <repository-url>
+git clone https://github.com/MohamedElghobary/ai_data_analysis_agent.git
 cd ai_data_analysis_agent
+```
+
+2. **Create virtual environment**
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```
+
+3. **Install dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+4. **Set up environment variables (Optional)**
+
+```bash
+# Create .env file
+echo "OPENAI_API_KEY=your_openai_api_key_here" > .env
+```
+
+5. **Run the application**
+
+```bash
+streamlit run main.py
+```
+
